@@ -1,1 +1,69 @@
-body {}
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Indie+Flower&family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-image: url("/maths.png");
+
+}
+
+.head {
+    background: linear-gradient(#4B4F40, #b7b7a4);
+    text-align: center;
+    margin: 0;
+    padding: 2rem;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.container__txt {
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: larger;
+    font: inherit;
+
+}
+
+.container__btn {
+    display: block;
+    margin: 1.2rem 0rem;
+    padding: 1rem 3rem;
+    border: none;
+    background: #4C4F40;
+    color: white;
+    font-size: large;
+    font: inherit;
+
+}
+
+.container__div-txt {
+    font-size: larger;
+}
+
+.container__div-output {
+    border: 1px solid black;
+    padding: 1.5rem;
+}
+
+.foot {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(0deg, #4B4F40, #b7b7a4);
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.foot__about--font {
+    font-size: larger;
+}
